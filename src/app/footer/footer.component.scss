@@ -31,20 +31,21 @@
   }
   
   .bg-footer {
-    background-color: #33383c;
-    font-family: 'Raleway', sans-serif;
+    background-color: black;
     position: absolute;
     width: 100%;
     bottom: 0;
   }
   
   .footer-heading {
+    font-family: 'Pacifico';
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
   }
   
   .footer-link {
+    font-family: 'Quicksand';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,7 +53,7 @@
     list-style: none;
   
     a {
-      color: #acacac;
+      color: white;
       line-height: 40px;
       font-size: 16px;
       transition: all 0.2s;
@@ -60,7 +61,7 @@
       text-decoration-thickness: 2px;
   
       &:hover {
-        color: #E0952E;
+        color: gold;
       }
     }
   }
@@ -81,7 +82,7 @@
   }
   
   .contact-info {
-    color: #acacac;
+    color: white;
     font-size: 16px;
   }
   
@@ -137,7 +138,7 @@
       right: 0;
       margin: auto;
       display: block;
-      border-bottom: 3px solid #E0952E;
+      border-bottom: 3px solid gold;
     }
   }
   
