@@ -1,8 +1,15 @@
-
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
 .container {
-    margin-top: 2em;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  margin-bottom: 0;
+  justify-content: space-between;
   }
   
   h6 {
@@ -32,9 +39,7 @@
   
   .bg-footer {
     background-color: black;
-    position: absolute;
     width: 100%;
-    bottom: 0;
   }
   
   .footer-heading {
